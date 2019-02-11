@@ -1,7 +1,7 @@
 {
   "name": "@redoxengine/grunt-sails-tasks",
   "description": "A grunt command to run 1 off tasks with sails",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "homepage": "https://github.com/100health/grunt-sails-tasks",
   "author": {
     "name": "TC",

@@ -37,7 +37,7 @@ module.exports = function(grunt) {
     };
 
     liftSails({
-      port: 1337,
+      port: process.env.REDOXLOCAL_GRUNT_PORT || 1337,
       environment: grunt.option('env') || process.env.NODE_ENV,
       tasks: true
     }, function (err, sails) {
